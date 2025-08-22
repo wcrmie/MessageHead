@@ -1,7 +1,6 @@
 package one.endst.messageHead.chat;
 
 import one.endst.messageHead.MessageHead;
-import one.endst.messageHead.util.ConfigFetcher;
 import one.endst.messageHead.util.messages.Message;
 import one.endst.messageHead.util.messages.MessageType;
 import org.bukkit.entity.Player;

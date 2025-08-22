@@ -1,6 +1,5 @@
 package one.endst.messageHead.inventory;
 
-import one.endst.messageHead.util.Menu;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

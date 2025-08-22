@@ -1,7 +1,6 @@
 package one.endst.messageHead.commands;
 
 import one.endst.messageHead.inventory.VoiceMenu;
-import one.endst.messageHead.util.Menu;
 import one.endst.messageHead.util.messages.Message;
 import one.endst.messageHead.util.messages.MessageType;
 import org.bukkit.command.Command;

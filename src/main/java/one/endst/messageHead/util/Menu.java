@@ -71,7 +71,7 @@ public class Menu{
 
     public static class ItemBuilder {
 
-        private ItemStack item;
+        private final ItemStack item;
 
         public ItemBuilder(ItemStack item) {
             this.item = item;
