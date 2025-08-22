@@ -7,6 +7,7 @@ import one.endst.messageHead.commands.SetPitch;
 import one.endst.messageHead.commands.SetVoice;
 import one.endst.messageHead.inventory.MenuListener;
 import one.endst.messageHead.util.ConfigFetcher;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -21,6 +22,9 @@ public final class MessageHead extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
+
+        int pluginId = 27012;
+        Metrics metrics = new Metrics(this, pluginId);
 
         // Config
         this.saveDefaultConfig();

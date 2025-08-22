@@ -15,6 +15,8 @@ public class Listener implements org.bukkit.event.Listener {
         Player player = event.getPlayer();
         String message = event.getMessage();
 
+        if (event.isCancelled()) return;
+
         if (message.length() > MessageHead.getPlugin().getConfigFetcher().getCharLimit()) {
 
             player.sendMessage(Message.create(MessageType.FAIL, "Your message must be less than " + MessageHead.getPlugin().getConfigFetcher().getCharLimit() + " characters long."));
