@@ -1,0 +1,15 @@
+name: MessageHead
+version: '1.0'
+main: one.endst.messageHead.MessageHead
+api-version: '1.21'
+authors: [ worm ]
+commands:
+  setpitch:
+    description: Set your voice pitch.
+    usage: /setpitch <float>
+  setvoice:
+    description: Set your voice sound (mostly for testing purposes).
+    usage: /setvoice <int/soundname>
+  voicemenu:
+    description: Open the voice menu.
+    usage: /voicemenu
